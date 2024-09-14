@@ -22,7 +22,6 @@ class SecondActivity : AppCompatActivity() {
 
     private val db = DBHelper(this, null)
 
-    private var person: Person? = null
     private var textSpinner: String? = null
     private lateinit var spinner: Spinner
     private lateinit var nameEditTextET: EditText
